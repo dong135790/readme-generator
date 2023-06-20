@@ -65,7 +65,7 @@ prompt([
     }
 ])
 .then((data) => {
-    const fileName = 'result.md'
+    const fileName = 'sample.md'
     writeToFile(fileName, data);
 })
 
