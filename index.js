@@ -37,7 +37,7 @@ prompt([
         name: 'license',
         message: 'Choose a license for your application',
         type: 'list',
-        choices: ['MIT (Massachussets Institute of Technology)', 'Apache', 'GNU (General Public License)', 'BSD (Berkeley Software Distribution)'],
+        choices: ['MIT (Massachussets Institute of Technology)', 'Apache', 'GNU (General Public License)', 'BSD (Berkeley Software Distribution)', 'Other', 'None'],
     },    
     {
         name: 'contributing',
